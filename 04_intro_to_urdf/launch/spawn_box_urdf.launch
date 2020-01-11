@@ -6,7 +6,7 @@
 		<arg name="x" value="0.0"/>
 		<arg name="y" value="0.0"/>
 		<arg name="z" value="0.0"/>
-		<arg name="urdf_robot_file" value="$(find box)/urdf/box.xacro"/>
+		<arg name="urdf_robot_file" value="$(find box)/urdf/box.urdf"/>
 		<arg name="robot_name" value="my_box"/>
 
 	</include>
