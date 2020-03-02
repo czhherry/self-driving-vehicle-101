@@ -20,4 +20,13 @@ smart:
     type: effort_controllers/JointPositionController
     joint: front_left_steering_joint
     pid: {p: 40000.0, i: 200.0, d: 1.0}
-
+  # gazebo_ros_control:
+  #   pid_gains:
+  #     rear_right_wheel_joint:
+  #       p: 100.0
+  #       i: 0.5
+  #       d: 0.0
+  #     rear_left_wheel_joint:
+  #       p: 100.0
+  #       i: 0.5
+  #       d: 0.0
