@@ -5,8 +5,8 @@ Panels:
     Property Tree Widget:
       Expanded:
         - /Global Options1
-        - /Path1
-        - /final path1
+        - /Base path1
+        - /Final path1
       Splitter Ratio: 0.5
     Tree Height: 1086
   - Class: rviz/Selection
@@ -118,7 +118,7 @@ Visualization Manager:
       Length: 0.30000001192092896
       Line Style: Lines
       Line Width: 0.029999999329447746
-      Name: Path
+      Name: Base path
       Offset:
         X: 0
         Y: 0
@@ -134,14 +134,14 @@ Visualization Manager:
     - Alpha: 1
       Buffer Length: 1
       Class: rviz/Path
-      Color: 25; 255; 0
+      Color: 239; 41; 41
       Enabled: true
       Head Diameter: 0.30000001192092896
       Head Length: 0.20000000298023224
       Length: 0.30000001192092896
-      Line Style: Lines
-      Line Width: 0.029999999329447746
-      Name: final path
+      Line Style: Billboards
+      Line Width: 0.10000000149011612
+      Name: Final path
       Offset:
         X: 0
         Y: 0
